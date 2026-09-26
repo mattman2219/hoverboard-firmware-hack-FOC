@@ -263,7 +263,7 @@
 
 
 // ################################# VARIANT_ADC SETTINGS ############################
-#ifdef VARIANT_ADC
+//#ifdef VARIANT_ADC
 /* CONTROL VIA TWO POTENTIOMETERS
  * Connect potis to left sensor board cable (0 to 3.3V) (do NOT use the red 15V wire!)
  *
@@ -455,7 +455,7 @@
 
 
 
-// ################################# VARIANT_IBUS SETTINGS ##############################
+ ################################# VARIANT_IBUS SETTINGS ##############################
 #ifdef VARIANT_IBUS
 /* CONTROL VIA RC REMOTE WITH FLYSKY IBUS PROTOCOL 
 * Connected to Right sensor board cable. Channel 1: steering, Channel 2: speed.
